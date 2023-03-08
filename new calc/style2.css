@@ -1,0 +1,177 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.calculator{
+    height:380px;
+    background-color: black;
+  
+    padding:5px;
+    position:absolute;
+    border-radius: 8px;
+}
+
+
+.btn{
+    padding:0px;
+    height:50px;
+    border:1px solid white;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.clear{
+    background-color: red;
+}
+
+.delete{
+    background-color: blue;
+}
+
+.equal{
+    background-color: white;
+    color: black;
+}
+
+.keypad{
+    
+    position: relative;
+    top:20px;
+    
+}
+
+.row{
+    
+    margin-left: 0px;
+    margin-bottom: 5px;
+    
+}
+
+.screen{
+    height:60px;
+    font-weight: bold;
+}
+
+@media (min-width:1201px){  /* xxl */
+
+    .container{
+       margin-top:50px ;
+    }
+
+   .calculator{
+    height: 530px;
+   }
+
+   .btn{
+    height:60px;
+   }
+
+   .keypad{
+    top:20px;
+   }
+
+   .row{
+    margin-bottom: 15px;
+   }
+
+   .screen{
+    height:120px;
+   }
+} 
+
+@media (max-width:1200px){  /* xl */
+
+    .container{
+        margin-top:50px ;
+     }
+
+    .calculator{
+     height: 530px;
+    }
+ 
+    .btn{
+     height:50px;
+    }
+ 
+    .keypad{
+     top:50px;
+    }
+ 
+    .row{
+     margin-bottom: 20px;
+    }
+ 
+    .screen{
+     height:120px;
+    }
+ } 
+
+ @media (max-width:992px){  /* lg */
+    .calculator{
+     height: 540px;
+    }
+ 
+    .btn{
+     height:60px;
+    }
+ 
+    .keypad{
+     top:40px;
+    }
+ 
+    .row{
+     margin-bottom: 15px;
+    }
+ 
+    .screen{
+     height:100px;
+    }
+ }
+
+ @media (max-width:768px){  /* md */
+    .calculator{
+     height: 530px;
+    }
+ 
+    .btn{
+     height:60px;
+    }
+ 
+    .keypad{
+     top:20px;
+    }
+ 
+    .row{
+     margin-bottom: 15px;
+    }
+ 
+    .screen{
+     height:120px;
+    }
+ }
+
+ @media (max-width:526px){ /* sm */
+    .calculator{
+     height: 430px;
+    }
+ 
+    .btn{
+     height:50px;
+    }
+ 
+    .keypad{
+     top:20px;
+    }
+ 
+    .row{
+     margin-bottom: 15px;
+    }
+ 
+    .screen{
+     height:80px;
+    }
+ } 
